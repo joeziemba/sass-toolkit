@@ -1,0 +1,31 @@
+
+input {
+	padding: 10px;
+	margin: 5px;
+	font-size:14px;
+	color: $color-primary;
+
+	border-radius:3px;
+	border:1px solid #eee;
+
+	width:100%;
+}
+
+textarea {
+	@extend input;
+	height:80px;
+	}
+
+.form-submit {
+	@extend .btn-primary;
+	width: 100%;
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}

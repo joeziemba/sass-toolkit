@@ -1,0 +1,45 @@
+
+header.page-header {
+	background-color:#ddd;
+}
+
+.logo {
+	float:left;
+	padding: 10px;
+}
+
+ul.nav-primary {
+	float: right;
+	list-style: none;
+
+	> li {
+		display: inline-block;
+
+		a {
+			text-decoration: none;
+			padding: 10px 20px;
+
+			&:hover{
+				background-color: $color-primary;
+				color:#fff;
+			}
+		}
+	li:hover {
+		.nav-submenu {
+			display: block;
+		}
+	}
+	}
+}
+
+ul.nav-submenu {
+	display:none;
+	position:absolute;
+	background-color: #ddd;
+	padding:0;
+	border-bottom:5px solid $color-primary;
+
+	li {
+		display: block;
+	}
+}

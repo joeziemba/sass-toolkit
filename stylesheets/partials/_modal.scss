@@ -1,0 +1,65 @@
+
+body.modal-on {
+	overflow:hidden;
+}
+
+.modal-wrapper {
+	background-color: rgba(0,0,0,.5);
+	width:100%;
+	height:100%;
+	position: fixed;
+
+	display: none;
+
+	.modal {
+		width:500px;
+		//height:300px;
+
+		background-color:#fff;
+		border-top: 10px solid $color-primary;
+		border-radius:2px;
+
+		margin: 0 auto;
+		position: relative;
+		top:50%;
+		transform: translateY(-50%);
+
+		}
+	.modal-content {
+		padding:30px;
+		text-align:center;
+
+		.title {
+			text-transform: uppercase;
+			font-size: 26px;
+			padding-bottom: 10px;
+		}
+
+		.copy {
+
+		}
+
+		input {
+			padding: 5px;
+			color:#d4444f;
+			margin:10px;
+		}
+
+		input:focus{
+			outline:none;
+		}
+	}
+
+	.modal-header {
+		text-align: right;
+	}
+
+	.js-modal-close {
+		padding:5px 15px;
+		cursor: pointer;
+	}
+
+	.modal-content-inline{
+		display: none;
+	}
+}

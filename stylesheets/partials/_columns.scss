@@ -1,0 +1,19 @@
+
+@for $i from 1 to 12{
+	.col-#{$i}{
+		width: 100%;
+		padding: 0 15px;
+	}
+
+	@media (min-width:768px){
+		.col-#{$i}{
+			width:100/$i * 1%;
+			margin:0;
+			float: left;
+		}
+
+		// .col-#{$i}:first-child {
+		// 	margin-left: -15px;
+		// }
+	}
+}
