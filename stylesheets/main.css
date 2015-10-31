@@ -375,6 +375,12 @@ th {
 .clearfix {
   clear: both; }
 
+ul {
+  margin: 0; }
+
+.clearfix {
+  clear: both; }
+
 .col-1 {
   width: 100%;
   padding: 0 15px; }
@@ -654,14 +660,5 @@ textarea[type=number]::-webkit-outer-spin-button {
   -moz-appearance: none;
   appearance: none;
   margin: 0; }
-
-ul {
-  margin: 0; }
-
-.clearfix {
-  clear: both; }
-
-img {
-  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
